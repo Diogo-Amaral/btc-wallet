@@ -50,7 +50,7 @@ node ./src/createWallet.js
 
 This command will generate a private key, a Bitcoin address and a mnemonic phrase, displaying them in the terminal. You can save this information for future use.
 
-Sample output:
+#### Sample output:
 ```shell
 Private Key: 5JkxyZsmtS8wVjYqbhRdyBbRh7B76a4E2ptwqaChC4U1JwTChV3
 Bitcoin Address: 1LfVzq7V65WcfpGH7FwZDNKn9gjT9gxvq7
@@ -59,5 +59,8 @@ Mnemonic Phrase: apple banana zebra whiskey tiger sunset cloud moon mango pizza 
 
 ## Security Notices
 
-Never share your private key or mnemonic phrase. If someone gains access to them, they can access and spend the bitcoins in your wallet.
-Keep your information secure. The project was created for educational purposes and should not be used in production without proper security review.
+- **Never share your private key or mnemonic phrase**. If someone gains access to them, they can access and spend the bitcoins in your wallet.
+- **Keep your information secure**. The project was created for educational purposes and should not be used in production without proper security review.
+
+## References
+- https://www.dio.me/
