@@ -20,7 +20,7 @@ let btcAddress = bitcoin.payments.p2pkh({
     network: network,
 }).address
 
-console.log("Carteira gerada")
-console.log("Endereço: ", btcAddress)
-console.log("Chave privada: ", node.toWIF())
-console.log("Seed: ", mnemonic)
+console.log("Private Key: ", node.toWIF())
+console.log("Public Key: ", btcAddress.fronode.publicKey.toString('base64'))
+console.log("Bitcoin Address: ", btcAddress)
+console.log("Mnemonic Phrase: ", mnemonic)
